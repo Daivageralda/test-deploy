@@ -23,7 +23,7 @@ app.add_middleware(
 )
 
 # Load TFLite model
-interpreter = tf.lite.Interpreter(model_path="F:\Kuliah\Tugas Akhir\spoof\model_converted_val_loss_0.0865_224x224(17-1-24).tflite")
+interpreter = tf.lite.Interpreter(model_path="model_converted_val_loss_0.0865_224x224(17-1-24).tflite")
 interpreter.allocate_tensors()
 
 # Get input and output tensor details
