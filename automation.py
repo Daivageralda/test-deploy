@@ -28,7 +28,7 @@ def control_vm(action):
 
 # Contoh penggunaan
 if __name__ == "__main__":
-    action = input("Masukkan aksi (start/stop): ").strip().lower()
+    action = input("").strip().lower()
     if action in ["start", "stop"]:
         control_vm(action)
     else:
