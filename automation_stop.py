@@ -28,8 +28,4 @@ def control_vm(action):
 
 # Contoh penggunaan
 if __name__ == "__main__":
-    action = input("").strip().lower()
-    if action in ["start", "stop"]:
-        control_vm(action)
-    else:
-        print("Aksi tidak valid. Gunakan 'start' atau 'stop'.")
+    control_vm("stop")
