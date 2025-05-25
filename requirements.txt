@@ -3,5 +3,5 @@ uvicorn==0.34.0
 opencv-python-headless==4.10.0.84
 numpy==1.26.4
 tensorflow==2.17.0
-mediapipe==0.10.11
+mediapipe==0.10.21
 pillow==11.0.0
